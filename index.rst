@@ -26,6 +26,10 @@ The FTC Romi app orginates from the official FTC app used in competitions, which
    :scale: 50 %
    :alt: Romi Robot
 
+This video demonstrates the functionality of the FTC Romi app:
+
+.. youtube:: QtsjNljFKj4
+
 To get started with setting up FTC Romi, follow the guides below:
 
 .. toctree::
