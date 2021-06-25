@@ -51,5 +51,6 @@ Then, click on "Restart Robot":
 
 The Driver Station
 ^^^^^^^^^^^^^^^^^^
-
-
+The lower half of the screen contains the Driver Station.
+The Driver Station allows you to select and run your OpModes (programs) as you would on a real FTC Driver Station.
+The Driver Station does **not** display connected gamepads, since you can only connect one gamepad controller to the phone.
