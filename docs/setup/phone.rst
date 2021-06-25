@@ -33,5 +33,5 @@ After clicking on security, enable "Unknown sources":
 
 If you would like, you can disable this setting after downloading the FTC Romi app.
 
-To download the app, navigate to https://github.com/Nolan1324/test/releases/download/1/FTC_Romi.apk on the phone's web browser.
+To download the app, navigate to https://github.com/Nolan1324/FTC-Romi/releases/download/v1.0/FTC-Romi.apk on the phone's web browser.
 This should automatically start downloading the app, which you can then click to install.
