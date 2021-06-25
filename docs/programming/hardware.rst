@@ -64,6 +64,6 @@ but you will want to cast it to ``IntegratingGyroscope`` to access all of its fe
   IntegratingGyroscope gyro = (IntegratingGyroscope) HardwareMap.gyroSensor.get("gyro");
 
 Accelerometer (``AccelerationSensor``)
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 There is one accelerometer named ``"accelerometer"``. If using Java, this is of type ``AccelerationSensor` in the ``HardwareMap``.

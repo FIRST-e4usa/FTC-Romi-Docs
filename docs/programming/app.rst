@@ -23,7 +23,7 @@ The home screen of the FTC Romi app contains the Robot Controller portion on the
    :alt: Home screen
 
 Connection Status
-^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^
 
 Notice the text labelled "WebSocket Client Status":
 
