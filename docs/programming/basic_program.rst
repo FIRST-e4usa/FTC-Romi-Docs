@@ -69,10 +69,10 @@ The sample **BasicPOVDrive** should already contain basic drive code that can co
 Running the OpMode
 ------------------
 The OpMode should now be available to select on the phone's Driver Station.
-Click `here </docs/programming/app.html#the-driver-station>`_ for a refresher on the Driver Station portion of the FTC app.
+Click `here <app.html#the-driver-station>`_ for a refresher on the Driver Station portion of the FTC app.
 
 Ensure that the Romi is connected to the phone.
-Click `here </docs/programming/app.html#connection-status>`_ for a refresher on how to do this.
+Click `here <app.html#connection-status>`_ for a refresher on how to do this.
 
 To run the selected OpMode, press the large "INIT" button to initialize the robot and then press it again to start the robot.
 You should now able to connect a gamepad to phone and control the Romi with the joysticks.
