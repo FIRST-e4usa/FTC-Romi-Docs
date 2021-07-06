@@ -11,7 +11,7 @@ The device on the robot is called the Robot Controller, and is considered the "b
 The other device is called the Driver Station, which the person driving the robot can use to initialize, start, and stop the robot. They can also connect a gamepad to the Driver Station to control the robot.
 
 The FTC Romi app conveniently **combines these two apps into one app**.
-These means that you can code and drive your robot with the same app on only one phone.
+These means that you can code and drive your robot with the same app on only one phone or computer.
 
 The App
 -------

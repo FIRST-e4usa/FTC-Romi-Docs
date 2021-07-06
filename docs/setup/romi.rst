@@ -9,8 +9,9 @@ Follow this guide and then return here:
 
 `Romi Hardware & Assembly <https://docs.wpilib.org/en/stable/docs/romi-robot/hardware.html>`_
 
-Keep in mind that for running FTC Romi, you will also need an Android phone to run the FTC app on.
-To control the robot, you will need a wired gamepad and an On The Go cable to connect the gamepad to the phone.
+Keep in mind that for running FTC Romi, you will also need either a computer **or** an Android phone to run the FTC app on.
+To control the robot, you will need a wired gamepad.
+**If you are using a phone**, you will also need an OTG cable to connect the gamepad to the phone.
 These are items typically used on full-sized FTC robots:
 
 - `Logitech Gamepad <https://www.amazon.com/Logitech-940-000110-Gamepad-F310/dp/B003VAHYQY>`_
@@ -18,7 +19,7 @@ These are items typically used on full-sized FTC robots:
 
 Make sure that your Logitech Gamepad is in "X" mode by configuring the slider on the back:
 
-.. image:: images/logitech_back.jpeg
+.. image:: images/romi/logitech_back.jpeg
    :scale: 25 %
    :alt: Back of Logitech Gamepad
 

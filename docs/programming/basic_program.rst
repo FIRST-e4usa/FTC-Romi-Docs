@@ -5,40 +5,6 @@ This guide will step through creating a basic Blocks program to test that our Ro
 Programming the Romi works the same way as programming a full-sized FTC robot.
 Thus, the following steps also apply to real FTC programming.
 
-Robot Controller Console
-------------------------
-
-To access the Robot Controller Console, go to the **Program & Manage** screen of the FTC Romi app:
-
-.. image:: images/menu.png
-   :scale: 25 %
-   :alt:
-
-.. image:: images/program_and_manage.png
-   :scale: 25 %
-   :alt:
-
-.. image:: images/connection.png
-   :scale: 25 %
-   :alt:
-
-From here, you can start programming directly on your phone.
-However, it is highly recommended that you program on a computer by connecting it to the phone.
-
-To connect your computer to your phone, connect to the appropriate WiFi network on your computer.
-The WiFi name should match the name displayed on the phone's "Program & Manage" screen.
-The password is also displayed on the phone's "Program & Manage" screen
-
-.. image:: images/computer_wifi.png
-   :scale: 25 %
-   :alt:
-
-Once you connect to the phone's WiFi, open a web browser and navigate to ``http://192.168.49.1:8080``.
-This should bring up the Robot Controller Console:
-
-.. image:: images/console.png
-   :alt:
-
 From here, click the **Blocks** tab at the top. This will take you to this page:
 
 .. image:: images/opmodes.png
