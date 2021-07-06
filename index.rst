@@ -43,6 +43,7 @@ To get started with setting up FTC Romi, follow the guides below:
    :caption: Setup
 
    docs/setup/romi
+   docs/setup/computer
    docs/setup/phone
 
 .. toctree::

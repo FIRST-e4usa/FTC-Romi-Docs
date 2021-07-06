@@ -57,6 +57,16 @@ If your do not see your Romi's WiFi, ensure your Romi has been turned on for abo
    :scale: 25 %
    :alt:
 
+The "WebSocket Client Status" in the app indicates if it is connect to the Romi, as shown below.
+If it is "disconnected", do a "Restart Robot" like so:
+
+.. image:: images/status.png
+   :scale: 25 %
+.. image:: images/menu.png
+   :scale: 25 %
+.. image:: images/restart.png
+   :scale: 25 %
+
 Robot Controller Console
 ------------------------
 
