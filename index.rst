@@ -17,16 +17,22 @@ It enables users to write real FRC robot code and run it on this robot, allowing
 FTC Romi is an open-source project that brings this experience to the *FIRST*\ |reg| Tech Challenge (**FTC**) program.
 In FTC, robots are controlled by an app that is downloaded to an Android phone, which they can then use to program their robot.
 FTC Romi allows users to download a modified version of the FTC app and use it to control and program a Romi robot.
+The FTC Romi can be downloaded to either **an Android phone or a computer**, making it flexible and easy to use.
 
 The FTC Romi app supports both the **Blocks** and **Java** programming languages that are used in FTC, so FTC Romi is great tool for learning real FTC programming skills!
 
 The FTC Romi app orginates from the official FTC app used in competitions, which can be found `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_.
+The extracted packages used are from the `OpenFTC Extracted-RC repository <https://github.com/OpenFTC/Extracted-RC>`_.
 
 .. image:: docs/images/romi.png
    :scale: 50 %
    :alt: Romi Robot
 
-This video demonstrates the functionality of the FTC Romi app:
+This video demonstrates the functionality of the FTC Romi app using a computer with an emulator:
+
+.. youtube:: Wyf2ZvQw2Gw
+
+And this video demonstrates it using a phone instead:
 
 .. youtube:: QtsjNljFKj4
 
@@ -36,8 +42,9 @@ To get started with setting up FTC Romi, follow the guides below:
    :titlesonly:
    :caption: Setup
 
-   docs/setup/phone
    docs/setup/romi
+   docs/setup/computer
+   docs/setup/phone
 
 .. toctree::
    :titlesonly:
