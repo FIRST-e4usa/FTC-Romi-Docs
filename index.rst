@@ -5,6 +5,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. meta::
+    :description lang=en:
+        FTC Romi is an open-source project that allows users to program and control a small Romi robot with the same code that they would use on a full-sized robot
+    :keywords: FIRST, FTC, Romi, Android, Java, Blocks
+
 Welcome to FTC Romi's documentation!
 ====================================
 
