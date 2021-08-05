@@ -61,7 +61,7 @@ Open the BlueStacks settings (the "gear" in the corner).
 
 .. image:: images/computer/blue_settings.png
 
-Select the **Prefrences** tab in the settings, scroll down to **Game control settings**, and then make sure **Enable gamepad detection** and **Force on** are enabled.
+Select the **Preferences** tab in the settings, scroll down to **Game control settings**, and then make sure **Enable gamepad detection** and **Force on** are enabled.
 
 .. image:: images/computer/blue_gamepad.png
 
