@@ -67,3 +67,52 @@ Accelerometer (``AccelerationSensor``)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 There is one accelerometer named ``"accelerometer"``. If using Java, this is of type ``AccelerationSensor` in the ``HardwareMap``.
+
+External IO
+^^^^^^^^^^^
+The Romi robot has 5 additional pins which can be connected to external devices.
+These pins can be configured to either DIO, Analog In, or PWM using the Romi Web UI.
+When you configure these pins, the Web UI will display their types and numbers (for instance, **Digital 8**):
+
+.. image:: images/romi-ui-io-config.png
+    :width: 75%
+
+You can then access these devices in your code using the appropriate hardware names:
+
+``DigitalChannel``
+""""""""""""""""""
+
+.. list-table::
+   :widths: 25 25
+   :header-rows: 1
+
+   * - Name
+     - Web UI Name
+   * - ``"dio_extra_8"``
+     - Digital 8
+   * - ``"dio_extra_9"``
+     - Digital 9
+   * - ``"dio_extra_10"``
+     - Digital 10
+   * - ``"dio_extra_11"``
+     - Digital 11
+   * - ``"dio_extra_12"``
+     - Digital 12
+
+``AnalogInput``
+""""""""""""""""""
+
+.. list-table::
+   :widths: 25 25
+   :header-rows: 1
+
+   * - Name
+     - Web UI Name
+   * - ``"analog_0"``
+     - AnalogIn 0
+   * - ``"analog_1"``
+     - AnalogIn 1
+   * - ``"analog_2"``
+     - AnalogIn 2
+   * - ``"analog_3"``
+     - AnalogIn 3
