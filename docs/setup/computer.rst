@@ -53,6 +53,18 @@ If the app crashes when first opening it, just try opening it again:
 .. image:: images/computer/my_games.png
 .. image:: images/computer/app_home.png
 
+BlueStacks Gamepad
+------------------
+If you are using BlueStacks, you may have to enable controller support to use a gamepad. This is fairly straightforward.
+
+Open the BlueStacks settings (the "gear" in the corner).
+
+.. image:: images/computer/blue_settings.png
+
+Select the **Prefrences** tab in the settings, scroll down to **Game control settings**, and then make sure **Enable gamepad detection** and **Force on** are enabled.
+
+.. image:: images/computer/blue_gamepad.png
+
 Connecting to Romi
 -----------------------
 If you set your Romi according to the `previous guide <romi.html>`_, then you can now connect to the Romi's WiFi.
