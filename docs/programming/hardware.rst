@@ -116,3 +116,31 @@ You can then access these devices in your code using the appropriate hardware na
      - AnalogIn 2
    * - ``"analog_3"``
      - AnalogIn 3
+
+
+PWM (``DcMotor`` or ``Servo``)
+"""""""""""""""""""""""""""""""
+Each external port configured as **PWM** can either be used as a ``DcMotor`` or ``Servo`` in your FTC code.
+
+.. list-table::
+   :widths: 25 25 25
+   :header-rows: 1
+
+   * - ``DcMotor`` Name
+     - ``Servo`` Name
+     - Web UI Name
+   * - ``"motor_extra_2"``
+     - ``"servo_2"``
+     - PWM 2
+   * - ``"motor_extra_3"``
+     - ``"servo_3"``
+     - PWM 3
+   * - ``"motor_extra_4"``
+     - ``"servo_4"``
+     - PWM 4
+   * - ``"motor_extra_5"``
+     - ``"servo_5"``
+     - PWM 5
+   * - ``"motor_extra_6"``
+     - ``"servo_6"``
+     - PWM 6
