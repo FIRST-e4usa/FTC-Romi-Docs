@@ -2,3 +2,4 @@ sphinx>=4.0.2
 sphinx_rtd_theme>=0.5.2
 sphinxcontrib.yt>=0.2.2
 sphinx-tabs>=3.2.0
+docutils~=0.16
