@@ -53,8 +53,17 @@ To get started with setting up FTC Romi, follow the guides below:
 
 .. toctree::
    :titlesonly:
-   :caption: Programming
+   :caption: Basic Programming
 
-   docs/programming/app
-   docs/programming/hardware
-   docs/programming/basic_program
+   docs/basic_programming/app
+   docs/basic_programming/hardware
+   docs/basic_programming/basic_program
+
+.. toctree::
+   :titlesonly:
+   :caption: Device Programming
+
+   docs/devices/drive_motor
+   docs/devices/digital_output
+   docs/devices/digital_input
+   docs/devices/gyro
