@@ -21,7 +21,7 @@ dsdsdssd
 
     .. group-tab:: Blocks
 
-        .. blockly:: analog
+        .. blockly:: analog.blk
             :height: 100px
 
     .. group-tab:: Java

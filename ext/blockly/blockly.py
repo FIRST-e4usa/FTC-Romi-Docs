@@ -1,6 +1,7 @@
 from docutils import nodes
 from docutils.parsers.rst import Directive, directives
 
+static_path = '../../_static'
 
 class Blockly(Directive):
 
@@ -12,8 +13,16 @@ class Blockly(Directive):
     option_spec = {'height': directives.unchanged}
 
     def run(self):
-        blocks = '../../_static/snippets/' + self.arguments[0] + '.blk'
-        html = '<iframe src="../../_static/blockly/index.html" style="border: 0px;" width="100%" height="' + self.options["height"] + '" blocks="' + blocks + '"></iframe>'
+        index_url = f'{static_path}/blockly/index.html'
+
+        block_file_name = self.arguments[0]
+        if not block_file_name.lower().endswith('.blk'):
+            block_file_name += '.blk'
+        blocks_url = f'{static_path}/blk_files/{block_file_name}'
+
+        height = self.options['height']
+
+        html = f'<iframe src="{index_url}" style="border: 0px;" width="100%" height="{height}" blocks-url="{blocks_url}"></iframe>'
 
         html_node = nodes.raw('', html, format='html')
         return [html_node]
