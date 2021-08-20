@@ -107,30 +107,46 @@
     </div>
 
     <script>
-      var blocksUrl = window.frameElement.getAttribute("blocks-url");
+      waitForVisible = () => {
+        if(isVisible()) {
+          init();
+          console.log("Initialized blocks");
+        } else {
+          setTimeout(waitForVisible, 20);
+        }
+      }
+      waitForVisible();
 
-      var xmlHttp = new XMLHttpRequest();
-      xmlHttp.open("GET", blocksUrl, false);
-      xmlHttp.send(null);
-      var res = xmlHttp.responseText;
+      function isVisible() {
+        return window.frameElement.parentElement.hidden !== true;
+      }
 
-      var resXml = Blockly.Xml.textToDom(res);
+      function init() {
+        var blocksUrl = window.frameElement.getAttribute("blocks-url");
 
-      var workspace = Blockly.inject('blocklyDiv', {
-        readOnly: true,
-        zoom: {
-          controls: false,
-          wheel: true,
-          startScale: 1,
-          maxScale: 5,
-          minScale: 0.3,
-          scaleSpeed: 1
-        },
-      });
+        var xmlHttp = new XMLHttpRequest();
+        xmlHttp.open("GET", blocksUrl, false);
+        xmlHttp.send(null);
+        var res = xmlHttp.responseText;
 
-      workspace.addTopBlock(Blockly.Xml.domToBlock(resXml, workspace));
-      workspace.zoomToFit()
-      workspace.translate(0, 0)
+        var resXml = Blockly.Xml.textToDom(res);
+
+        var workspace = Blockly.inject('blocklyDiv', {
+          readOnly: true,
+          zoom: {
+            controls: false,
+            wheel: true,
+            startScale: 1,
+            maxScale: 5,
+            minScale: 0.3,
+            scaleSpeed: 1
+          },
+        });
+
+        workspace.addTopBlock(Blockly.Xml.domToBlock(resXml, workspace));
+        workspace.zoomToFit()
+        workspace.translate(0, 0)
+      }
     </script>
   </body>
 </html>
