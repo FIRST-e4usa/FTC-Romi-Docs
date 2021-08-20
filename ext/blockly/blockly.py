@@ -5,8 +5,8 @@ from docutils.parsers.rst import Directive, directives
 class Blockly(Directive):
 
     has_content = True
-    required_arguments = 2
-    optional_arguments = 0
+    required_arguments = 1
+    optional_arguments = 1
     final_argument_whitespace = False
 
     option_spec = {'height': directives.unchanged}

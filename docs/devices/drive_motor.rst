@@ -6,7 +6,7 @@ Drive Motor
     .. group-tab:: Blocks
 
         .. blockly:: test
-            ::height:: 100px
+            :height: 500px
 
 
 
