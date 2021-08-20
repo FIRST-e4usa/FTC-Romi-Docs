@@ -121,20 +121,16 @@
         zoom: {
           controls: false,
           wheel: true,
-          startScale: 1.2,
+          startScale: 1,
           maxScale: 5,
           minScale: 0.3,
-          scaleSpeed: 1.2
+          scaleSpeed: 1
         },
       });
-      //Blockly.Xml.domToWorkspace(dataX, workspace);
+
       workspace.addTopBlock(Blockly.Xml.domToBlock(resXml, workspace));
       workspace.zoomToFit()
-
-      console.log(window.frameElement.getAttribute("blocks"));
-      console.log(window.location);
-
-      //blocklyDivArea.style.height = workspace.svgBlockCanvas_.getBoundingClientRect().height;
+      workspace.translate(0, 0)
     </script>
   </body>
 </html>

@@ -6,10 +6,7 @@ Drive Motor
     .. group-tab:: Blocks
 
         .. blockly:: test
-            :height: 500px
-
-
-
+            :height: 301px
 
     .. group-tab:: Java
 
@@ -24,6 +21,8 @@ dsdsdssd
 
     .. group-tab:: Blocks
 
+        .. blockly:: analog
+            :height: 100px
 
     .. group-tab:: Java
         .. code-block::
