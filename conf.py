@@ -30,7 +30,8 @@ author = 'Nolan Kuza'
 # ones.
 extensions = [
     "sphinx_rtd_theme",
-    "sphinxcontrib.yt"
+    "sphinxcontrib.yt",
+    "sphinx_tabs.tabs",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
