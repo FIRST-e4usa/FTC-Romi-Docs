@@ -113,7 +113,7 @@ Full Code
             import com.qualcomm.robotcore.hardware.DcMotor;
             import com.qualcomm.robotcore.hardware.DcMotorSimple;
 
-            @TeleOp(name = "POVDrive (Blocks to Java)")
+            @TeleOp(name = "POVDrive")
             public class POVDrive extends LinearOpMode {
               /**
                * This function is executed when this Op Mode is selected from the Driver Station.
