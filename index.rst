@@ -65,5 +65,5 @@ To get started with setting up FTC Romi, follow the guides below:
 
    docs/devices/drive_motor
    docs/devices/leds
-   docs/devices/digital_input
+   docs/devices/buttons
    docs/devices/gyro
