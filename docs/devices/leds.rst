@@ -52,9 +52,9 @@ We can do this with ``setMode``:
 
         .. code-block:: java
 
-            dio_1 = hardwareMap.get(DigitalChannel.class, "dio_1");
-            dio_2 = hardwareMap.get(DigitalChannel.class, "dio_2");
-            dio_3 = hardwareMap.get(DigitalChannel.class, "dio_3");
+            dio_1.setMode(DigitalChannel.Mode.OUTPUT);
+            dio_2.setMode(DigitalChannel.Mode.OUTPUT);
+            dio_3.setMode(DigitalChannel.Mode.OUTPUT);
 
 Turning the Lights On
 ^^^^^^^^^^^^^^^^^^^^^
