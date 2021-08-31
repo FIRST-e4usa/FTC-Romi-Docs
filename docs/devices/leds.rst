@@ -17,7 +17,7 @@ The green LED is ``"dio_1"``, the red is ``"dio_2"``, and the yellow is ``"dio_3
         If you are using Blocks, you can already access these devices through the toolbox on left when writing code!
 
         .. image:: images/leds/toolbox.png
-            :width: 50%
+            :width: 400px
 
     .. group-tab:: Java
 

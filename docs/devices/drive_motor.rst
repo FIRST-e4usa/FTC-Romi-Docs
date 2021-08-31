@@ -19,7 +19,7 @@ These names are ``"left_drive"`` and ``"right_drive"``
         If you are using Blocks, you can already access these devices through the toolbox on left when writing code!
 
         .. image:: images/drive_motor/toolbox.png
-            :width: 50%
+            :width: 400px
 
     .. group-tab:: Java
 
