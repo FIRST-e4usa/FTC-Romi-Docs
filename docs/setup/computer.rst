@@ -35,7 +35,7 @@ Once you install the FTC Romi app later in this game, it will show up on this sc
 App Download
 ------------
 The app file can be downloaded from GitHub.
-Navigate to https://github.com/Nolan1324/FTC-Romi/releases/latest in your browser and click on ``FTC-Romi.apk``.
+Navigate to https://github.com/FIRST-e4usa/FTC-Romi/releases/latest in your browser and click on ``FTC-Romi.apk``.
 
 Make sure you are downloading the `Latest release`.
 The image below shows exactly where to find this:

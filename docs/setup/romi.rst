@@ -5,7 +5,7 @@ Hardware and Assembly
 ---------------------
 The Romi robot requires certain hardware and assembly instructions to start using.
 The FRC software documentation already has a comprehensive guide on the this process.
-Follow this guide and then return here:
+Follow this guide and then return here. Note that when it instructs you to download "Romi WPILibPi" on the "Imaging your Romi" page, you will need to download an older version: **WPILibPi_image-v2021.2.1-Romi**. You can download it from WPILib `here <https://github.com/wpilibsuite/WPILibPi/releases/tag/v2021.2.1>`_.
 
 `Romi Hardware & Assembly <https://docs.wpilib.org/en/stable/docs/romi-robot/hardware.html>`_
 
